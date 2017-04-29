@@ -1,0 +1,31 @@
+{
+  "name": "undiscover",
+  "version": "0.0.1",
+  "description": "Undiscover: musica da scoprire",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.4.1",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "svg-url-loader": "^2.0.2",
+    "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "dev": "webpack -d --watch --watch-poll",
+    "prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/undiscover/undiscover.github.io.git"
+  },
+  "author": "Luca Lorenzini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/undiscover/undiscover.github.io/issues"
+  },
+  "homepage": "http://undiscover.it"
+}
