@@ -16,7 +16,7 @@
   },
   "scripts": {
     "dev": "webpack -d --watch --watch-poll",
-    "prod": "webpack -p"
+    "dist": "webpack -p"
   },
   "repository": {
     "type": "git",
